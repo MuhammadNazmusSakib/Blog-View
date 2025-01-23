@@ -9,8 +9,8 @@ const Navbar = async () => {
     const user = await getUser();
 
     return (
-        <header className="p-4 bg-blue-600 text-white ">
-            <div className='max-w-5xl mx-auto flex justify-between items-center'>
+        <header className="bg-blue-600 py-3 font-semibold text-white ">
+            <div className='max-w-5xl px-4 sm:px-8 mx-auto flex justify-between items-center'>
                 {/* Links Section */}
                 <nav className="flex space-x-4">
                     <Link href="/">
